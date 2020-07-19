@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
 
 s.name         = "QTTimer"
 s.version      = "0.2"
-s.summary      = "A short description of QTCore."
+s.summary      = "QTTimer"
 
 
-s.description  = "des"
+s.description  = "QTTimer"
 
 s.homepage     = "https://github.com/HelloBie/QTTimer.git"
 
