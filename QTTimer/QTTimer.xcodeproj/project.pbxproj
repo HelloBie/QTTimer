@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95A6222424C3DEF30052BF02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6222324C3DEF30052BF02 /* AppDelegate.m */; };
+		95A6222724C3DEF30052BF02 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6222624C3DEF30052BF02 /* SceneDelegate.m */; };
+		95A6222A24C3DEF30052BF02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6222924C3DEF30052BF02 /* ViewController.m */; };
+		95A6222D24C3DEF30052BF02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6222B24C3DEF30052BF02 /* Main.storyboard */; };
+		95A6222F24C3DEF60052BF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A6222E24C3DEF60052BF02 /* Assets.xcassets */; };
+		95A6223224C3DEF60052BF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6223024C3DEF60052BF02 /* LaunchScreen.storyboard */; };
+		95A6223524C3DEF60052BF02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6223424C3DEF60052BF02 /* main.m */; };
+		95A6223F24C3DEF70052BF02 /* QTTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6223E24C3DEF70052BF02 /* QTTimerTests.m */; };
+		95A6224A24C3DEF70052BF02 /* QTTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6224924C3DEF70052BF02 /* QTTimerUITests.m */; };
+		95A6225C24C3DF1F0052BF02 /* QTGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6225824C3DF1F0052BF02 /* QTGCDTimer.m */; };
+		95A6225D24C3DF1F0052BF02 /* QTTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A6225924C3DF1F0052BF02 /* QTTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95A6223B24C3DEF70052BF02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A6221724C3DEF30052BF02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A6221E24C3DEF30052BF02;
+			remoteInfo = QTTimer;
+		};
+		95A6224624C3DEF70052BF02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A6221724C3DEF30052BF02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A6221E24C3DEF30052BF02;
+			remoteInfo = QTTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95A6221F24C3DEF30052BF02 /* QTTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A6222224C3DEF30052BF02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95A6222324C3DEF30052BF02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95A6222524C3DEF30052BF02 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		95A6222624C3DEF30052BF02 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		95A6222824C3DEF30052BF02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95A6222924C3DEF30052BF02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95A6222C24C3DEF30052BF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95A6222E24C3DEF60052BF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95A6223124C3DEF60052BF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95A6223324C3DEF60052BF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A6223424C3DEF60052BF02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95A6223A24C3DEF70052BF02 /* QTTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A6223E24C3DEF70052BF02 /* QTTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTTimerTests.m; sourceTree = "<group>"; };
+		95A6224024C3DEF70052BF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A6224524C3DEF70052BF02 /* QTTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A6224924C3DEF70052BF02 /* QTTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTTimerUITests.m; sourceTree = "<group>"; };
+		95A6224B24C3DEF70052BF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A6225824C3DF1F0052BF02 /* QTGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTGCDTimer.m; sourceTree = "<group>"; };
+		95A6225924C3DF1F0052BF02 /* QTTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTimer.m; sourceTree = "<group>"; };
+		95A6225A24C3DF1F0052BF02 /* QTGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTGCDTimer.h; sourceTree = "<group>"; };
+		95A6225B24C3DF1F0052BF02 /* QTTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTimer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A6221C24C3DEF30052BF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A6223724C3DEF70052BF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A6224224C3DEF70052BF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A6221624C3DEF30052BF02 = {
+			isa = PBXGroup;
+			children = (
+				95A6222124C3DEF30052BF02 /* QTTimer */,
+				95A6223D24C3DEF70052BF02 /* QTTimerTests */,
+				95A6224824C3DEF70052BF02 /* QTTimerUITests */,
+				95A6222024C3DEF30052BF02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95A6222024C3DEF30052BF02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A6221F24C3DEF30052BF02 /* QTTimer.app */,
+				95A6223A24C3DEF70052BF02 /* QTTimerTests.xctest */,
+				95A6224524C3DEF70052BF02 /* QTTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A6222124C3DEF30052BF02 /* QTTimer */ = {
+			isa = PBXGroup;
+			children = (
+				95A6225724C3DF1F0052BF02 /* 定时器 */,
+				95A6222224C3DEF30052BF02 /* AppDelegate.h */,
+				95A6222324C3DEF30052BF02 /* AppDelegate.m */,
+				95A6222524C3DEF30052BF02 /* SceneDelegate.h */,
+				95A6222624C3DEF30052BF02 /* SceneDelegate.m */,
+				95A6222824C3DEF30052BF02 /* ViewController.h */,
+				95A6222924C3DEF30052BF02 /* ViewController.m */,
+				95A6222B24C3DEF30052BF02 /* Main.storyboard */,
+				95A6222E24C3DEF60052BF02 /* Assets.xcassets */,
+				95A6223024C3DEF60052BF02 /* LaunchScreen.storyboard */,
+				95A6223324C3DEF60052BF02 /* Info.plist */,
+				95A6223424C3DEF60052BF02 /* main.m */,
+			);
+			path = QTTimer;
+			sourceTree = "<group>";
+		};
+		95A6223D24C3DEF70052BF02 /* QTTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				95A6223E24C3DEF70052BF02 /* QTTimerTests.m */,
+				95A6224024C3DEF70052BF02 /* Info.plist */,
+			);
+			path = QTTimerTests;
+			sourceTree = "<group>";
+		};
+		95A6224824C3DEF70052BF02 /* QTTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95A6224924C3DEF70052BF02 /* QTTimerUITests.m */,
+				95A6224B24C3DEF70052BF02 /* Info.plist */,
+			);
+			path = QTTimerUITests;
+			sourceTree = "<group>";
+		};
+		95A6225724C3DF1F0052BF02 /* 定时器 */ = {
+			isa = PBXGroup;
+			children = (
+				95A6225A24C3DF1F0052BF02 /* QTGCDTimer.h */,
+				95A6225824C3DF1F0052BF02 /* QTGCDTimer.m */,
+				95A6225B24C3DF1F0052BF02 /* QTTimer.h */,
+				95A6225924C3DF1F0052BF02 /* QTTimer.m */,
+			);
+			path = "定时器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A6221E24C3DEF30052BF02 /* QTTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A6224E24C3DEF70052BF02 /* Build configuration list for PBXNativeTarget "QTTimer" */;
+			buildPhases = (
+				95A6221B24C3DEF30052BF02 /* Sources */,
+				95A6221C24C3DEF30052BF02 /* Frameworks */,
+				95A6221D24C3DEF30052BF02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTTimer;
+			productName = QTTimer;
+			productReference = 95A6221F24C3DEF30052BF02 /* QTTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95A6223924C3DEF70052BF02 /* QTTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A6225124C3DEF70052BF02 /* Build configuration list for PBXNativeTarget "QTTimerTests" */;
+			buildPhases = (
+				95A6223624C3DEF70052BF02 /* Sources */,
+				95A6223724C3DEF70052BF02 /* Frameworks */,
+				95A6223824C3DEF70052BF02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A6223C24C3DEF70052BF02 /* PBXTargetDependency */,
+			);
+			name = QTTimerTests;
+			productName = QTTimerTests;
+			productReference = 95A6223A24C3DEF70052BF02 /* QTTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95A6224424C3DEF70052BF02 /* QTTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A6225424C3DEF70052BF02 /* Build configuration list for PBXNativeTarget "QTTimerUITests" */;
+			buildPhases = (
+				95A6224124C3DEF70052BF02 /* Sources */,
+				95A6224224C3DEF70052BF02 /* Frameworks */,
+				95A6224324C3DEF70052BF02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A6224724C3DEF70052BF02 /* PBXTargetDependency */,
+			);
+			name = QTTimerUITests;
+			productName = QTTimerUITests;
+			productReference = 95A6224524C3DEF70052BF02 /* QTTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A6221724C3DEF30052BF02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = MasterBie;
+				TargetAttributes = {
+					95A6221E24C3DEF30052BF02 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					95A6223924C3DEF70052BF02 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 95A6221E24C3DEF30052BF02;
+					};
+					95A6224424C3DEF70052BF02 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 95A6221E24C3DEF30052BF02;
+					};
+				};
+			};
+			buildConfigurationList = 95A6221A24C3DEF30052BF02 /* Build configuration list for PBXProject "QTTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95A6221624C3DEF30052BF02;
+			productRefGroup = 95A6222024C3DEF30052BF02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A6221E24C3DEF30052BF02 /* QTTimer */,
+				95A6223924C3DEF70052BF02 /* QTTimerTests */,
+				95A6224424C3DEF70052BF02 /* QTTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A6221D24C3DEF30052BF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A6223224C3DEF60052BF02 /* LaunchScreen.storyboard in Resources */,
+				95A6222F24C3DEF60052BF02 /* Assets.xcassets in Resources */,
+				95A6222D24C3DEF30052BF02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A6223824C3DEF70052BF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A6224324C3DEF70052BF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A6221B24C3DEF30052BF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A6225C24C3DF1F0052BF02 /* QTGCDTimer.m in Sources */,
+				95A6222A24C3DEF30052BF02 /* ViewController.m in Sources */,
+				95A6222424C3DEF30052BF02 /* AppDelegate.m in Sources */,
+				95A6223524C3DEF60052BF02 /* main.m in Sources */,
+				95A6225D24C3DF1F0052BF02 /* QTTimer.m in Sources */,
+				95A6222724C3DEF30052BF02 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A6223624C3DEF70052BF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A6223F24C3DEF70052BF02 /* QTTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A6224124C3DEF70052BF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A6224A24C3DEF70052BF02 /* QTTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95A6223C24C3DEF70052BF02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A6221E24C3DEF30052BF02 /* QTTimer */;
+			targetProxy = 95A6223B24C3DEF70052BF02 /* PBXContainerItemProxy */;
+		};
+		95A6224724C3DEF70052BF02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A6221E24C3DEF30052BF02 /* QTTimer */;
+			targetProxy = 95A6224624C3DEF70052BF02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95A6222B24C3DEF30052BF02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A6222C24C3DEF30052BF02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95A6223024C3DEF60052BF02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A6223124C3DEF60052BF02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A6224C24C3DEF70052BF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95A6224D24C3DEF70052BF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A6224F24C3DEF70052BF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QTTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bqt.www.QTTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95A6225024C3DEF70052BF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QTTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bqt.www.QTTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95A6225224C3DEF70052BF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QTTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bqt.www.QTTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTTimer.app/QTTimer";
+			};
+			name = Debug;
+		};
+		95A6225324C3DEF70052BF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QTTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bqt.www.QTTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTTimer.app/QTTimer";
+			};
+			name = Release;
+		};
+		95A6225524C3DEF70052BF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QTTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bqt.www.QTTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QTTimer;
+			};
+			name = Debug;
+		};
+		95A6225624C3DEF70052BF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QTTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bqt.www.QTTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QTTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A6221A24C3DEF30052BF02 /* Build configuration list for PBXProject "QTTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A6224C24C3DEF70052BF02 /* Debug */,
+				95A6224D24C3DEF70052BF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A6224E24C3DEF70052BF02 /* Build configuration list for PBXNativeTarget "QTTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A6224F24C3DEF70052BF02 /* Debug */,
+				95A6225024C3DEF70052BF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A6225124C3DEF70052BF02 /* Build configuration list for PBXNativeTarget "QTTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A6225224C3DEF70052BF02 /* Debug */,
+				95A6225324C3DEF70052BF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A6225424C3DEF70052BF02 /* Build configuration list for PBXNativeTarget "QTTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A6225524C3DEF70052BF02 /* Debug */,
+				95A6225624C3DEF70052BF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A6221724C3DEF30052BF02 /* Project object */;
+}
